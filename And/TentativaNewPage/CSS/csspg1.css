@@ -1,0 +1,100 @@
+body {
+    background-image: url('./Imagens/Neon.jpg');
+    background-position: center bottom;
+    margin: 0%;
+}
+
+
+
+#tituloprin {
+     font-size: 5rem;
+     color: rgb(0, 0, 0);
+     font-weight: 600;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     background-color: honeydew;
+     margin-bottom: 2rem;
+}
+
+#titulo1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-size: 4rem;
+    margin: 0.5px;
+    padding: 1px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-size: 4rem;
+    margin: 0.5px;
+    padding: 1px;
+}
+
+h2 {
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-image: url(./Imagens/cabecalho.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 500px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 6.5px;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: red;
+    color: black;
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight: 600;
+}
+
+#pfter {
+    color: rgb(0, 0, 0);
+}
+
+#DK {
+    align-items: right;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: white;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    text-align: center;
+}
